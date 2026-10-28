@@ -46,7 +46,7 @@ h2 { font-size: clamp(42px, 6.6vw, 110px); }
 .sl3 em { color: var(--chili); }
 .sl .sw, .sl em { will-change: transform; }
 .sticker { position: absolute; z-index: 1; margin: 0; width: clamp(150px, 20vw, 300px); aspect-ratio: 1; border-radius: 50%; overflow: hidden; border: 8px solid var(--cream); box-shadow: 0 30px 60px -20px #1a130899; }
-.sticker img { width: 100%; height: 100%; object-fit: cover; }
+.sticker img, .sticker video { width: 100%; height: 100%; object-fit: cover; }
 .st1 { right: 8%; top: 16%; }
 .st2 { right: 26%; bottom: 18%; width: clamp(110px, 13vw, 200px); }
 .stamp { position: absolute; z-index: 3; right: 31%; top: 15%; width: 132px; aspect-ratio: 1; margin: 0; display: grid; place-content: center; text-align: center; border-radius: 50%; background: var(--cactus); color: var(--mus-2); font: 400 15px/1.1 var(--f-d); text-transform: uppercase; rotate: 12deg; }
